@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>US Healthcare RCM Analysis | Portfolio</title>
+
+    <meta name="description" content="US Healthcare Medical Billing and RCM Analysis Excel Portfolio Project">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<header class="hero" id="home">
+
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">RCM<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="#about">Overview</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#process">Workflow</a>
+            <a href="#project">Project Files</a>
+        </div>
+
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero-content container">
+
+        <p class="eyebrow">EXCEL PORTFOLIO PROJECT | 2026</p>
+
+        <h1>
+            US Healthcare
+            <span>Medical Billing & RCM Analysis</span>
+        </h1>
+
+        <p class="hero-description">
+            An Excel-based learning project focused on healthcare
+            claims performance, payment posting, patient insurance
+            information and denial management using 1,000 simulated
+            healthcare claim records.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#dashboard" class="btn btn-primary">
+                Explore Dashboard →
+            </a>
+
+            <a href="assets/US_Healthcare_RCM_Analysis.xlsx"
+               class="btn btn-outline" download>
+                Download Excel Workbook ↓
+            </a>
+
+        </div>
+
+        <p class="disclaimer">
+            Training project using simulated data. No real patient
+            or payer information is included.
+        </p>
+
+    </div>
+
+</header>
+
+
+<!-- OVERVIEW -->
+<section class="section container" id="about">
+
+    <p class="section-label">01 / PROJECT OVERVIEW</p>
+
+    <h2>Understanding Healthcare Revenue Cycle Management</h2>
+
+    <p class="section-description">
+        This project demonstrates the use of Microsoft Excel to
+        organise healthcare claims data, review payment information,
+        analyse denials and present operational metrics through
+        an interactive-style dashboard.
+    </p>
+
+
+    <!-- KPI CARDS -->
+    <div class="kpi-grid">
+
+        <div class="kpi-card">
+            <p>Total Claims</p>
+            <h3>1,000</h3>
+            <span>Simulated claim records</span>
+        </div>
+
+        <div class="kpi-card">
+            <p>Total Billed Amount</p>
+            <h3>$533,567</h3>
+            <span>Total billed value</span>
+        </div>
+
+        <div class="kpi-card">
+            <p>Paid Claims</p>
+            <h3>540</h3>
+            <span>54% of total claims</span>
+        </div>
+
+        <div class="kpi-card">
+            <p>Denied Claims</p>
+            <h3>152</h3>
+            <span>15.20% denial rate</span>
+        </div>
+
+    </div>
+
+
+    <!-- PROJECT OBJECTIVES -->
+    <div class="overview-grid">
+
+        <div class="info-card">
+
+            <h3>Project Objectives</h3>
+
+            <ul>
+                <li>Organise and validate healthcare claims data.</li>
+                <li>Analyse payer-wise claim performance.</li>
+                <li>Review payment posting information.</li>
+                <li>Categorise denied claims.</li>
+                <li>Identify denial trends and patterns.</li>
+                <li>Present key metrics through an Excel dashboard.</li>
+            </ul>
+
+        </div>
+
+
+        <div class="info-card">
+
+            <h3>Tools & Skills Practised</h3>
+
+            <div class="tags">
+                <span>Microsoft Excel</span>
+                <span>Excel Formulas</span>
+                <span>Data Validation</span>
+                <span>PivotTables</span>
+                <span>PivotCharts</span>
+                <span>Data Cleaning</span>
+                <span>Claims Analysis</span>
+                <span>Denial Management</span>
+            </div>
+
+            <p class="small-text">
+                The workbook uses simplified assumptions for
+                learning and portfolio demonstration.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- DASHBOARD -->
+<section class="section dashboard-section" id="dashboard">
+
+    <div class="container">
+
+        <p class="section-label">02 / EXCEL DASHBOARD</p>
+
+        <h2>Claims Performance Dashboard</h2>
+
+        <p class="section-description">
+            A visual summary of claim performance, payer comparisons,
+            denial categories, claim status and monthly claim volumes.
+        </p>
+
+        <div class="dashboard-image">
+
+            <img src="assets/rcm-dashboard.png"
+                 alt="US Healthcare RCM Excel Dashboard">
+
+            <p>Excel Dashboard | November 2026</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WORKFLOW -->
+<section class="section container" id="process">
+
+    <p class="section-label">03 / PROJECT WORKFLOW</p>
+
+    <h2>What the Workbook Covers</h2>
+
+    <div class="workflow-grid">
+
+        <div class="workflow-card">
+            <span>01</span>
+            <h3>Claims Register</h3>
+            <p>
+                Structured claim-level information including
+                patient ID, payer, service date, billed amount
+                and claim status.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>02</span>
+            <h3>Data Validation</h3>
+            <p>
+                Validation checks for missing information,
+                duplicate claim IDs and record completeness.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>03</span>
+            <h3>Payment Posting</h3>
+            <p>
+                Analysis of billed amounts, allowed amounts,
+                insurance payments, adjustments and balances.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>04</span>
+            <h3>Denial Management</h3>
+            <p>
+                Categorisation of denied claims, root cause
+                identification and suggested corrective actions.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>05</span>
+            <h3>Patient & Insurance</h3>
+            <p>
+                Practice dataset covering patient information,
+                insurance plans and eligibility status.
+            </p>
+        </div>
+
+        <div class="workflow-card">
+            <span>06</span>
+            <h3>Dashboard Reporting</h3>
+            <p>
+                Summary metrics, PivotTables and charts to
+                communicate claim performance.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECT FILE -->
+<section class="section project-section" id="project">
+
+    <div class="container project-content">
+
+        <div>
+            <p class="section-label">04 / PROJECT FILES</p>
+
+            <h2>Explore the Excel Workbook</h2>
+
+            <p class="section-description">
+                Download the workbook to review the claims register,
+                validation checks, payment posting, denial management
+                and dashboard.
+            </p>
+        </div>
+
+        <a href="assets/US_Healthcare_RCM_Analysis.xlsx"
+           class="download-card" download>
+
+            <div class="file-icon">XLSX</div>
+
+            <div>
+                <h3>US Healthcare RCM Analysis</h3>
+                <p>Download Excel Workbook</p>
+            </div>
+
+            <span class="download-arrow">↓</span>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="container footer-content">
+
+        <p>US Healthcare Medical Billing & RCM Analysis</p>
+
+        <a href="#home">Back to Top ↑</a>
+
+    </div>
+
+    <div class="container footer-note">
+        Independent learning project. All data is simulated.
+        This project does not represent actual patient billing,
+        payer decisions or production healthcare operations.
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
